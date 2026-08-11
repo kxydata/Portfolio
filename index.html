@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kanyakorn "Patti" Yothachai — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <span class="brand">KY</span>
+    <nav class="main-nav">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark and light mode" aria-pressed="false">
+      <span class="toggle-track"><span class="toggle-thumb"></span></span>
+      <span class="toggle-label">dark</span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">// enterprise technology integration</p>
+      <h1>Kanyakorn<br><span class="hero-nick">"Patti"</span> Yothachai</h1>
+      <p class="hero-tagline">I connect business operations to the systems that run them —
+        reading process, data, and people as one integrated stack.</p>
+      <div class="hero-meta">
+        <span>Penn State · B.S. Enterprise Technology Integration</span>
+        <span class="dot">·</span>
+        <span>Based in South Korea</span>
+      </div>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Get in touch</a>
+        <button id="download-pdf" class="btn btn-ghost">Download résumé (PDF)</button>
+      </div>
+    </div>
+
+    <div class="hero-diagram" aria-hidden="true">
+      <svg viewBox="0 0 420 420" id="systems-map">
+        <line class="edge" x1="210" y1="210" x2="210" y2="70" />
+        <line class="edge" x1="210" y1="210" x2="349" y2="280" />
+        <line class="edge" x1="210" y1="210" x2="71" y2="280" />
+
+        <g class="node node-center">
+          <circle cx="210" cy="210" r="46"></circle>
+          <text x="210" y="205">KY</text>
+          <text x="210" y="223" class="node-sub">integrator</text>
+        </g>
+
+        <g class="node node-outer">
+          <circle cx="210" cy="70" r="34"></circle>
+          <text x="210" y="75">BIZ</text>
+        </g>
+        <g class="node node-outer">
+          <circle cx="349" cy="280" r="34"></circle>
+          <text x="349" y="285">DATA</text>
+        </g>
+        <g class="node node-outer">
+          <circle cx="71" cy="280" r="34"></circle>
+          <text x="71" y="285">TECH</text>
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section-head">
+      <p class="eyebrow">01 · about</p>
+      <h2>Where operations meets systems</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-copy">
+        I'm a fourth-year Enterprise Technology Integration student at Penn State,
+        which is a deliberately unglamorous way of saying I study the seam between how
+        a business runs and how its software is built to support that. Time on the floor
+        at a retail operation in South Korea taught me what breaks when inventory data
+        and real shelves disagree; coursework in systems integration and data
+        organization is teaching me how to design around that before it happens.
+        I'm currently looking for an internship in data analytics, database management,
+        or information systems for an August or November 2026 start.
+      </p>
+      <dl class="fact-strip">
+        <div class="fact"><dt>Grad</dt><dd>May 2027</dd></div>
+        <div class="fact"><dt>Languages</dt><dd>Thai · English · 中文 · 한국어</dd></div>
+        <div class="fact"><dt>Focus</dt><dd>Data / Systems / Integration</dd></div>
+        <div class="fact"><dt>Location</dt><dd>South Korea</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="experience" id="experience">
+    <div class="section-head">
+      <p class="eyebrow">02 · experience</p>
+      <h2>Time on the ground</h2>
+      <p class="section-note">Click a role for the detail behind the line.</p>
+    </div>
+
+    <ol class="timeline">
+      <li class="timeline-item" tabindex="0"
+          data-role="Customer Experience Associate"
+          data-org="Osan Exchange, South Korea"
+          data-detail="Ran store operations and inventory accuracy checks, coordinated logistics, and handled front-line customer service for a military community exchange.">
+        <span class="timeline-dot"></span>
+        <div class="timeline-body">
+          <p class="timeline-date">Current</p>
+          <h3>Customer Experience Associate</h3>
+          <p class="timeline-org">Osan Exchange, South Korea</p>
+        </div>
+      </li>
+
+      <li class="timeline-item" tabindex="0"
+          data-role="Barista"
+          data-org="Taste Tea, Ewa Beach, HI"
+          data-detail="Handled 100+ daily transactions at 99.5% accuracy, compiled daily sales reports, and reduced stock discrepancies by 25% through tighter inventory counts.">
+        <span class="timeline-dot"></span>
+        <div class="timeline-body">
+          <p class="timeline-date">Sep 2023 – Aug 2024</p>
+          <h3>Barista</h3>
+          <p class="timeline-org">Taste Tea, Ewa Beach, HI</p>
+        </div>
+      </li>
+
+      <li class="timeline-item" tabindex="0"
+          data-role="Career Practicum"
+          data-org="Library · Postal Office · Pharmacy"
+          data-detail="Rotated across three professional environments: built promotional materials that lifted student engagement 20%, sorted mail, assisted with prescriptions, and tracked inventory.">
+        <span class="timeline-dot"></span>
+        <div class="timeline-body">
+          <p class="timeline-date">2020 – 2022</p>
+          <h3>Career Practicum</h3>
+          <p class="timeline-org">Library · Postal Office · Pharmacy</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="section-head">
+      <p class="eyebrow">03 · skills</p>
+      <h2>What I'm building with</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-bar" data-level="80">
+        <div class="skill-label"><span>SQL</span><span class="skill-pct">80%</span></div>
+        <div class="skill-track"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-bar" data-level="60">
+        <div class="skill-label"><span>Python</span><span class="skill-pct">60%</span></div>
+        <div class="skill-track"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-bar" data-level="70">
+        <div class="skill-label"><span>Power BI</span><span class="skill-pct">70%</span></div>
+        <div class="skill-track"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-bar" data-level="85">
+        <div class="skill-label"><span>Microsoft Office</span><span class="skill-pct">85%</span></div>
+        <div class="skill-track"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-bar" data-level="65">
+        <div class="skill-label"><span>Adobe Photoshop</span><span class="skill-pct">65%</span></div>
+        <div class="skill-track"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-bar" data-level="55">
+        <div class="skill-label"><span>Java / OOP</span><span class="skill-pct">55%</span></div>
+        <div class="skill-track"><div class="skill-fill"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="section-head">
+      <p class="eyebrow">04 · projects</p>
+      <h2>Coursework, applied</h2>
+    </div>
+    <div class="project-grid">
+      <article class="project-card">
+        <p class="project-tag">ETI 420 · Systems &amp; Enterprise Integration</p>
+        <h3>CareSync</h3>
+        <p class="project-desc">A clinic operations and records integration platform, modeled end-to-end in UML —
+          from stakeholder requirements through system architecture deliverables.</p>
+        <ul class="project-meta">
+          <li>UML modeling</li>
+          <li>Systems design</li>
+        </ul>
+      </article>
+      <article class="project-card">
+        <p class="project-tag">IST 256 · Web Development</p>
+        <h3>Online Magazine</h3>
+        <p class="project-desc">A group-built web magazine platform. I own the data layer as
+          database administrator, keeping schema and content in sync with the front end.</p>
+        <ul class="project-meta">
+          <li>Database design</li>
+          <li>Team collaboration</li>
+        </ul>
+      </article>
+      <article class="project-card">
+        <p class="project-tag">SCM 301 · Supply Chain Management</p>
+        <h3>Throx Case Analysis</h3>
+        <p class="project-desc">A nine-question quantitative teardown of a supply chain case,
+          covering forecasting, MRP, inventory policy, and capacity planning.</p>
+        <ul class="project-meta">
+          <li>Forecasting</li>
+          <li>Inventory analysis</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section-head">
+      <p class="eyebrow">05 · contact</p>
+      <h2>Let's talk</h2>
+      <p class="section-note">Internship openings, questions, or just to connect — reach out.</p>
+    </div>
+
+    <form id="contact-form" class="contact-form" novalidate>
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" autocomplete="name">
+        <p class="field-error" id="name-error"></p>
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" autocomplete="email">
+        <p class="field-error" id="email-error"></p>
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+        <p class="field-error" id="message-error"></p>
+      </div>
+      <button type="submit" class="btn btn-primary">Send message</button>
+      <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Kanyakorn "Patti" Yothachai · Built for IST 256, GenAI-assisted per course guidance</p>
+</footer>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<div id="resume-print" class="resume-print" aria-hidden="true"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
