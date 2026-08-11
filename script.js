@@ -155,7 +155,7 @@ function buildPrintableResume() {
 
   return `
     <div style="font-family: Georgia, serif; color:#1B2130; padding: 10px;">
-      <h1 style="font-family: Arial, sans-serif; margin-bottom:2px;">Kanyakorn "Patti" Yothachai</h1>
+      <h1 style="font-family: Arial, sans-serif; margin-bottom:2px;">Kanyakorn Yothachai</h1>
       <p style="color:#555; margin-top:0;">Penn State University &middot; B.S. Enterprise Technology Integration &middot; Based in South Korea</p>
       <h2 style="font-family: Arial, sans-serif; font-size:16px; border-bottom:1px solid #ccc; padding-bottom:4px;">Experience</h2>
       ${experience}
